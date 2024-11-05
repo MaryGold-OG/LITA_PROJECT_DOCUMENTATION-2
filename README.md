@@ -127,3 +127,25 @@ Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Cance
 
 ### Data Visualization
 ---
+
+![Customer Data Excel Formular](https://github.com/user-attachments/assets/be7aa605-d949-4be9-bceb-28a0e79a6aeb)
+
+![Customer Data Pivot Table](https://github.com/user-attachments/assets/4821e73b-07a1-4d61-8e37-e51bd720cd4b)
+
+![Customer Query 1](https://github.com/user-attachments/assets/6d79c2bb-6511-4219-a7df-5fe120ccfc37)
+
+![Customer Query 2](https://github.com/user-attachments/assets/a356423a-d624-4b1d-a2df-7e0eaf7dc442)
+
+![Customer Query 3](https://github.com/user-attachments/assets/c74d1326-5ece-4fa0-a9f6-5994013b7f7c)
+
+![Customer Query 4](https://github.com/user-attachments/assets/dde9730a-b21e-4551-a7e2-beaad63fdc31)
+
+![Customer Query 5](https://github.com/user-attachments/assets/b6aed891-b1e5-4900-836a-8120ca6f0e8d)
+
+![Customer Query 6](https://github.com/user-attachments/assets/e04cb9e8-499e-4400-94b1-e3b408bfd03f)
+
+![Customer Query 7](https://github.com/user-attachments/assets/067d590b-9294-4c6d-afaf-9f4280482384)
+
+![Customer Query 8](https://github.com/user-attachments/assets/440b128d-ded6-4306-a973-984d68facba8)
+
+

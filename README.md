@@ -154,4 +154,9 @@ Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Cance
 
 ![Customer Query 8](https://github.com/user-attachments/assets/440b128d-ded6-4306-a973-984d68facba8)
 
+#### Power BI Dashboard
+---
+![Customer Data Dashboard 1](https://github.com/user-attachments/assets/6ce8addb-b517-4d5b-bdbe-84fe3df918d7)
+
+![Customer Data Dashboard 2](https://github.com/user-attachments/assets/6eb8dce8-2398-4e8d-a017-a04b3f91d5e1)
 

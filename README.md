@@ -2,10 +2,27 @@
 
 ### Project Topic: Customer Subscription Analysis
 
-Project Overview
+[Project Overview](#project-overview) 
 
+[Data Source](#data-source)
 
+[Tools Used](#tools-used)
 
+[Data Cleaning and Preparation](data-cleanimg-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[SQL-Based Queries](#sql-based-queries)
+
+[Power BI Dashboard](#power-bi-dashboard)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Key Insights](#key-insights)
+
+[Recommendation](#recommendation)
 
 
 ### Project Overview

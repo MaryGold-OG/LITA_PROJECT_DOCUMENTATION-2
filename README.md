@@ -2,6 +2,12 @@
 
 ### Project Topic: Customer Subscription Analysis
 
+Project Overview
+
+
+
+
+
 ### Project Overview
 ---
 This project analyzes customer subscription data to understand key trends, identify popular subscription types, and observe regional distribution patterns. By examining metrics such as subscription durations, cancellation rates, and regional breakdowns, this analysis provides actionable insights into customer behavior and subscription performance. 
@@ -182,3 +188,6 @@ Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Cance
 - April saw the highest number of canceled subscriptions.
 - July recorded the highest number of active subscribers.
 
+
+### Recommendation
+---

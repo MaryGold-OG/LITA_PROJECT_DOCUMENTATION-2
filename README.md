@@ -27,11 +27,13 @@ In the initial phase of the Data cleaning and preparations, I perform the follow
     2. Handling missing variables
     3. Data Cleaning and formating
 
-### Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA)
+---
 - Analyzed regional distribution and identified the most popular subscription types.
 - Calculated average subscription duration and identified trends in cancellations.
 
 ### SQL- Based Queries
+---
 - Retrieve the total number of customers from each region.
 - Find the most popular subscription type by the number of customers. 
 - Find customers who cancelled their subscription within 6 months. 
@@ -40,7 +42,9 @@ In the initial phase of the Data cleaning and preparations, I perform the follow
 - Calculate total revenue by subscription type. 
 - Find the top 3 regions by subscription cancellations. 
 - Find the total number of active and cancelled subscriptions. 
-- Power BI Dashboard:
+
+### Power BI Dashboard:
+---
 - Visualized insights with metrics, cards, measures, and charts on key customer segments, cancellations, and subscription trends. Include slicers for interactive analysis.
 
 

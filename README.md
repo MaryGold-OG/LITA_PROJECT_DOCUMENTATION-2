@@ -208,3 +208,11 @@ Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Cance
 
 ### Recommendation
 ---
+
+- Since the Basic subscription is the most popular, enhancing its value to retain and attract even more customers should be considered. This could include offering additional benefits, loyalty rewards, or optional add-ons to increase customer satisfaction and revenue.
+
+- With 2023 showing high cancellation rates and a significant decline in subscribers (44.91%), it’s critical to investigate the root causes. Customer feedback surveys should be conducted, consider implementing a retention program, such as discounts or special promotions, to improve customer retention.
+
+- With an average subscription duration of 365.35 days, longer-term subscriptions to boost revenue stability should be encouraged.
+
+- Since Basic subscriptions significantly outperform Standard and Premium in both popularity and revenue, I will recommend reviewing the pricing and benefits of the Premium and Standard plans. Adjusting these plans to enhance their appeal could drive interest and balance subscription revenue distribution across all types.

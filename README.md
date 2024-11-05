@@ -128,10 +128,16 @@ Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Cance
 ### Data Visualization
 ---
 
+#### Excel workSheet
+---
 ![Customer Data Excel Formular](https://github.com/user-attachments/assets/be7aa605-d949-4be9-bceb-28a0e79a6aeb)
 
+#### Pivot Table
+---
 ![Customer Data Pivot Table](https://github.com/user-attachments/assets/4821e73b-07a1-4d61-8e37-e51bd720cd4b)
-
+---
+#### SQL Queries
+---
 ![Customer Query 1](https://github.com/user-attachments/assets/6d79c2bb-6511-4219-a7df-5fe120ccfc37)
 
 ![Customer Query 2](https://github.com/user-attachments/assets/a356423a-d624-4b1d-a2df-7e0eaf7dc442)

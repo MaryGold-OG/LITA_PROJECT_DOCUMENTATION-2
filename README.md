@@ -125,3 +125,5 @@ Average Subscription Duration = AVERAGE(CustomerData[Subscription Duration])
 Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Canceled Subscriptions] )
 ```
 
+### Data Visualization
+---

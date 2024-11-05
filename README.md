@@ -176,7 +176,7 @@ Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Cance
 - Basic: 5,067
 - Premium: 5,064
 - Standard: 5,044
-There is only a slight difference in cancellation rates across subscription types.
+- There is only a slight difference in cancellation rates across subscription types.
 
 #### Monthly Trends:
 - April saw the highest number of canceled subscriptions.

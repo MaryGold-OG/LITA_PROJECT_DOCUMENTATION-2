@@ -47,4 +47,81 @@ In the initial phase of the Data cleaning and preparations, I perform the follow
 ---
 - Visualized insights with metrics, cards, measures, and charts on key customer segments, cancellations, and subscription trends. Include slicers for interactive analysis.
 
+### Data Analysis
+---
+
+This is where I include some basic Excel formulars, queries and some DAX functions used during the analysis;
+
+```Excel Formulars
+Subscription Duration =F2-E2
+```
+```Excel Formulars
+Average Duration =AVERAGE(I:I)
+```
+```SQL
+ Retrieve the total number of customers from each region----
+Select Region, COUNT(CustomerID) Total_No_Of_Customers
+from CustomerData
+Group by Region
+```
+```SQL
+Find the most popular subscription type by the number of customers---
+Select Top 1 SubscriptionType, COUNT(CustomerID) As Total_No_Of_Customers
+From CustomerData
+Group By SubscriptionType
+```
+```SQL
+Find customers who canceled their subscription within 6 months---
+SELECT CustomerID, SubscriptionType, SubscriptionStart, SubscriptionEnd
+FROM CustomerData
+WHERE DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd) <= 180;
+```
+```SQL
+Calculate the average subscription duration for all customers
+ Select AVG(Subscription_Duration) As Average_SubscriptionDuration 
+ From CustomerData
+```
+```SQL
+Find customers with subscriptions longer than 12 months
+SELECT CustomerID, SubscriptionType, SubscriptionStart, SubscriptionEnd
+FROM CustomerData
+WHERE DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd) > 365;
+```
+```SQL
+Calculate total revenue by subscription type-----
+Select SubscriptionType, SUM(Revenue) As TotalRevenue_SubscriptionType
+From CustomerData
+Group By SubscriptionType
+```
+```SQL
+Find the top 3 regions by subscription cancellations----
+SELECT TOP 3 Region, COUNT(Canceled) AS CancellationCount
+FROM CustomerData
+WHERE Canceled = 'True'
+GROUP BY Region
+ORDER BY CancellationCount DESC;
+```
+```SQL
+Find the total number of active and canceled subscriptions----
+SELECT 
+    COUNT(CASE WHEN Canceled = 'False' THEN 'True' END) AS ActiveSubscriptions,
+    COUNT(CASE WHEN Canceled = 'True' THEN 'False' END) AS CanceledSubscriptions
+FROM CustomerData;
+```
+Measures Using DAX Function
+```DAX
+Total Revenue = SUM(CustomerData[Revenue])
+```
+```DAX
+Active Subscriptions = COUNTROWS(FILTER(CustomerData, CustomerData[Canceled] = "False"))
+```
+```DAX
+Canceled Subscriptions = COUNTROWS(FILTER(CustomerData, CustomerData[Canceled] = "True"))
+```
+```DAX
+Average Subscription Duration = AVERAGE(CustomerData[Subscription Duration])
+```
+```DAX
+Cancellation Rate = [Canceled Subscriptions] / ( [Active Subscriptions] + [Canceled Subscriptions] )
+```
 
